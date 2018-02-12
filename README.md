@@ -1,6 +1,6 @@
 ## Pokemon Routing
 
-Code sample for CSS Tricks Guest Post - Let's Build a Custom Vue Router
+Beginning code sample for CSS Tricks Guest Post - Let's Build a Custom Vue Router
 
 ## Demo
 
