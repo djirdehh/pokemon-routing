@@ -5,7 +5,7 @@ Beginning code sample for CSS Tricks Guest Post - Let's Build a Custom Vue Route
 ## Demo
 
 <div align="center">
-  <img src="https://i.imgur.com/TCrxSMu.png"/>
+  <img src="https://i.imgur.com/fLUGpFK.png"/>
 </div>
 
 ## Build Setup
