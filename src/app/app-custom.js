@@ -130,7 +130,7 @@ const Link = {
 const App = {
   name: 'App',
   template: `
-    <div id="app" class="container">
+    <div class="container">
       <div class="pokemon">
         <router-view></router-view>
 

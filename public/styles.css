@@ -5,7 +5,7 @@ html, body {
   background: linear-gradient(to bottom right,#024,#402);
 }
 
-#app {
+.container {
   height: 100%;
   font-family: Cinzel Decorative, sans-serif;
 }

@@ -26,7 +26,7 @@ const CharizardCard = {
 const App = {
   name: 'App',
   template: `
-    <div id="app" class="container">
+    <div class="container">
       <div class="pokemon">
         <pokemon-card></pokemon-card>
       </div>
