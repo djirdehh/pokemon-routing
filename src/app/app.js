@@ -1,5 +1,3 @@
-import Vue from 'vue';
-
 const CharizardCard = {
   name: 'charizard-card',
   template: `
