@@ -9,7 +9,7 @@ const CharizardCard = {
     <div class="card card--charizard has-text-weight-bold has-text-white">
       <div class="card-image">
         <div class="card-image-container">
-          <img src="http://static.pokemonpets.com/images/monsters-images-800-800/6-Charizard.png"/>
+          <img src="../../static/charizard.png"/>
         </div>
       </div>
       <div class="card-content has-text-centered">
@@ -18,12 +18,19 @@ const CharizardCard = {
           <div class="hp">hp 78</div>
         </div>
         <div class="stats columns is-mobile">
-          <div class="column">🔥<br><span class="tag is-warning">Type</span></div>
-          <div class="column center-column">199 lbs<br><span class="tag is-warning">Weight</span></div>
-          <div class="column">1.7 m <br><span class="tag is-warning">Height</span></div>
+          <div class="column">🔥<br>
+            <span class="tag is-warning">Type</span>
+          </div>
+          <div class="column center-column">199 lbs<br>
+            <span class="tag is-warning">Weight</span>
+          </div>
+          <div class="column">1.7 m <br>
+            <span class="tag is-warning">Height</span>
+          </div>
         </div>
       </div>
-    </div>`
+    </div>
+  `
 };
 
 const BlastoiseCard = {
@@ -32,7 +39,7 @@ const BlastoiseCard = {
     <div class="card card--blastoise has-text-weight-bold has-text-white">
       <div class="card-image">
         <div class="card-image-container">
-          <img src="http://static.pokemonpets.com/images/monsters-images-800-800/9-Blastoise.png"/>
+          <img src="../../static/blastoise.png"/>
         </div>
       </div>
       <div class="card-content has-text-centered">
@@ -41,12 +48,19 @@ const BlastoiseCard = {
           <div class="hp">hp 79</div>
         </div>
         <div class="stats columns is-mobile">
-          <div class="column">💧<br><span class="tag is-light">Type</span></div>
-          <div class="column center-column">223 lbs<br><span class="tag is-light">Weight</span></div>
-          <div class="column">1.6 m<br><span class="tag is-light">Height</span></div>
+          <div class="column">💧<br>
+            <span class="tag is-light">Type</span>
+          </div>
+          <div class="column center-column">223 lbs<br>
+            <span class="tag is-light">Weight</span>
+          </div>
+          <div class="column">1.6 m<br>
+            <span class="tag is-light">Height</span>
+          </div>
         </div>
       </div>
-    </div>`
+    </div>
+  `
 };
 
 const VenusaurCard = {
@@ -55,7 +69,7 @@ const VenusaurCard = {
     <div class="card card--venusaur has-text-weight-bold has-text-white">
       <div class="card-image">
         <div class="card-image-container">
-          <img src="http://static.pokemonpets.com/images/monsters-images-800-800/8003-Mega-Venusaur.png"/>
+          <img src="../../static/venusaur.png"/>
         </div>
       </div>
       <div class="card-content has-text-centered">
@@ -64,12 +78,19 @@ const VenusaurCard = {
           <div class="hp hp-venusaur">hp 80</div>
         </div>
         <div class="stats columns is-mobile">
-          <div class="column">🍃<br><span class="tag is-danger">Type</span></div>
-          <div class="column center-column">220 lbs<br><span class="tag is-danger">Weight</span></div>
-          <div class="column">2.0 m<br><span class="tag is-danger">Height</span></div>
+          <div class="column">🍃<br>
+            <span class="tag is-danger">Type</span>
+          </div>
+          <div class="column center-column">220 lbs<br>
+            <span class="tag is-danger">Weight</span>
+          </div>
+          <div class="column">2.0 m<br>
+            <span class="tag is-danger">Height</span>
+          </div>
         </div>
       </div>
-    </div>`
+    </div>
+  `
 };
 
 const routes = [
@@ -81,7 +102,7 @@ const routes = [
     path: '*',
     component: {
       name: 'not-found-blurb',
-      template: `<h3 class="subtitle has-text-white">Not Found :(. Pick a pokemon from the list below!</h3>`
+      template: `<h3 class="subtitle has-text-white">Not Found :(. Pick a Pokémon from the list below!</h3>`
     }
   }
 ];
@@ -99,7 +120,8 @@ const App = {
           <router-link to="/venusaur">/venusaur</router-link>
         </div>
       </div>
-    </div>`
+    </div>
+  `
 };
 
 export const router = new VueRouter({
