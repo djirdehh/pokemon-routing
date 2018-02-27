@@ -1,6 +1,9 @@
 ## Pokemon Routing
 
-Beginning code sample for CSS Tricks Guest Post - Let's Build a Custom Vue Router
+Code samples for blog article - "Let's Build a Custom Vue Router".
+
+CSS-Tricks: https://css-tricks.com/build-a-custom-vue-router/
+Medium Blog: https://medium.com/@hassan.djirdeh/lets-build-a-custom-vue-js-router-7de634be87c4
 
 ## Demo
 
